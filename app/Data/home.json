@@ -1,0 +1,51 @@
+{
+  "site": {
+    "title": "IronPDF for C++ - Beta Software Program",
+    "description": "Beta Software Program for IronPDF for C++. Be one of the first to get early access to the C++ PDF library."
+  },
+  "nav": [
+    { "title": "Products", "url": "#products", "hasDropdown": true },
+    { "title": "About us", "url": "#about" },
+    { "title": "Career", "url": "#career" }
+  ],
+  "hero": {
+    "kicker": "Building on the success of IronPDF for .NET",
+    "titleLine1": "Beta Software Program",
+    "titleLine2": "IronPDF for C++",
+    "subtitle": "Coming soon",
+    "formTitle": "Be one of the first",
+    "formSubtitle": "Sign up NOW to get early access!",
+    "formPlaceholder": "Enter email adress",
+    "formButton": "Sign up now",
+    "badgeText": "# Coming Soon",
+    "badgeNote": "IronPDF Beta Program also coming soon for",
+    "platforms": ["Python", "Node.JS", "Java"]
+  },
+  "productBand": {
+    "badge": "Coming soon",
+    "heading": "IronPDF for C++",
+    "bullets": [
+      "Generate PDFs from HTML in C++",
+      "Combine, split, and modify PDFs quickly in C++",
+      "Extract text and images from PDFs using C++"
+    ],
+    "intro": "The new IronPDF library for C++ will enhance the C++ developer’s tool set with robust PDF generation and conversion capabilities.",
+    "body": "IronPDF for C++ will help developers create C++ applications that can do PDF processing tasks and more, with speed, precision, control, and excellence."
+  },
+  "earlyAccess": {
+    "heading": "Early Access to C++ PDF Library",
+    "body": "Joining the early access program will allow you to collaborate closely with our engineering team. You will be playing a key role in the development process as you share your early experiences using the C++ PDF library before its official launch. Your continual feedback after we release the library will be immensely helpful as we release new features and improve on existing features.",
+    "cards": [
+      { "status": "Released", "platform": "java" },
+      { "status": "Coming soon", "platform": "python" },
+      { "status": "Coming soon", "platform": "nodejs" }
+    ]
+  },
+  "cta": {
+    "heading": "Sign up to our Beta Program",
+    "body": "Enter your email address below to receive the latest news and early access invitations.",
+    "button": "Sign up now"
+  }
+}
+
+
