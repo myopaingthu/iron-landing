@@ -1,68 +1,69 @@
-# CodeIgniter 4 Application Starter
+# IRONPDF for C++ Landing Page
 
-## What is CodeIgniter?
+A modern, responsive landing page for the IRONPDF for C++ Beta Software Program. Built with CodeIgniter 4, this landing page showcases the product features and provides an early access signup form.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## Project Overview
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+This is a pixel-perfect, production-quality landing page implementation that features:
+- Responsive design optimized for all screen sizes
+- Modern UI with custom CSS and Bootstrap integration
+- SEO-optimized with proper semantic HTML
+- Excellent Core Web Vitals scores
+- Accessibility considerations (ARIA, keyboard navigation, contrast)
+- Cross-browser compatibility
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## Technology Stack
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+- **PHP**: 8.1 or higher
+- **Framework**: CodeIgniter 4
+- **Frontend**: Bootstrap 5.3.8
 
-## Installation & updates
+## Requirements
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+- PHP 8.1 or higher
+- Composer
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+## Setup Instructions
 
-## Setup
+### 1. Clone the Repository
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+```bash
+git clone https://github.com/myopaingthu/iron-landing.git
+cd iron-landing
+```
 
-## Important Change with index.php
+### 2. Install Dependencies
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+```bash
+composer install
+```
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+### 3. Configure Environment
 
-**Please** read the user guide for a better explanation of how CI4 works!
+Copy the environment file and configure it:
 
-## Repository Management
+```bash
+cp env .env
+```
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+Edit `.env` and set your `app.baseURL`:
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+```env
+app.baseURL = 'http://localhost:8080/'
+```
 
-## Server Requirements
+### 4. Set Permissions
 
-PHP version 8.1 or higher is required, with the following extensions installed:
+Ensure the `writable` directory is writable:
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+```bash
+chmod -R 755 writable
+```
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
+### 5. Run the Development Server
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+```bash
+php spark serve
+```
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+The application will be available at `http://localhost:8080/`

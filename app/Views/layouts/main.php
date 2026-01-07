@@ -2,10 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/svg+xml" href="<?= base_url('favicon.svg') ?>">
+    <link rel="icon" type="image/svg+xml" href="<?= base_url('favicon.svg') ?>">
+
     <title><?= esc($site['title'] ?? 'IronPDF for C++') ?></title>
-    <meta name="description" content="<?= esc($site['description'] ?? '') ?>">
+    <meta name="description" content="<?= esc($site['description'] ?? 'IronPDF for C++ - Beta Software Program') ?>">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="<?= base_url('assets/css/style.css') ?>" rel="stylesheet">
 </head>
