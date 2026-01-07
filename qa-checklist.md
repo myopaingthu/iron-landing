@@ -14,6 +14,7 @@ Compared layout, spacing, and alignment against the Figma design using Figma Pix
 - Confirmed no unintended layout shifts between sections.
 - Decorative background elements and glows visually match the design while remaining responsive.
 - No layout implemented using absolute positioning for structural content (absolute positioning used only for decorative elements).
+- Used PerfectPixel chrome extension to verify.
 
 ✅ **Result:** Pixel-perfect match at design breakpoint with consistent spacing across sections.
 
@@ -41,11 +42,10 @@ Verified font family usage (Gotham).
 **Objective:** Ensure the page adapts correctly across screen sizes.
 
 **Tested responsive behavior at the following breakpoints:**
-- ≥1200px (large desktop)
-- 1100px
-- 992px (Bootstrap large breakpoint)
-- 768px (tablet)
-- 576px (mobile)
+- ≥1200px — Desktop / Large screens
+- 992px — Small desktop / Large tablet (Bootstrap “lg”)
+- 768px — Tablet (Bootstrap “md”)
+- ≤576px — Mobile devices (Bootstrap “sm” and below)
 
 **Verified:**
 - Layout reflows without horizontal scrolling
@@ -64,7 +64,7 @@ Verified font family usage (Gotham).
 **Tested on:**
 - Google Chrome (latest)
 - Mozilla Firefox (latest)
-- Safari (where available)
+- Safari (latest)
 
 **Checked:**
 - Layout consistency
