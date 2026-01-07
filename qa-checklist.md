@@ -57,6 +57,10 @@ Verified font family usage (Gotham).
 
 ✅ **Result:** Fully responsive across all tested breakpoints with no layout issues.
 
+![mobile view](./mobile_view.png)
+![tablet view](./tablet_view.png)
+![desktop view](./desktop_view.png)
+
 ## 4. Cross-Browser Testing
 
 **Objective:** Ensure consistent behavior across major browsers.

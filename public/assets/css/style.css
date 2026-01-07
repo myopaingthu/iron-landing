@@ -1091,7 +1091,8 @@ body {
   }
 
   .hero-illustration {
-    display: none;
+    width: 50%;
+    opacity: 0.6;
   }
 
   .product-band-header-zone {
