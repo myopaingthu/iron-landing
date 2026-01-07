@@ -75,6 +75,18 @@ body {
     sans-serif;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 .navbar-toggler:focus {
   box-shadow: none;
 }
@@ -439,7 +451,7 @@ body {
   position: absolute;
   width: 804.87px;
   height: 710px;
-  right: -10px;
+  right: 0;
   top: -6px;
   z-index: 1;
   pointer-events: none;
@@ -485,10 +497,12 @@ body {
 }
 
 .product-band-header {
-  width: 100%;
+  width: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  margin: 0 auto;
 }
 
 .product-band-heading {
@@ -504,8 +518,8 @@ body {
 
 .product-band-badge {
   position: absolute;
-  right: -88px;
-  top: 40%;
+  right: -59px;
+  top: 36%;
   transform: translateY(-50%) rotate(15deg);
 }
 

@@ -5,7 +5,7 @@
             <div class="why-visual">
                 <div class="why-icon-wrapper">
                     <div class="why-icon-blur"></div>
-                    <img src="<?= base_url('assets/img/pdf-image.png') ?>" alt="" class="why-icon-img">
+                    <img src="<?= base_url('assets/img/pdf-image.png') ?>" alt="" class="why-icon-img" width="270" height="180" aria-hidden="true">
                 </div>
             </div>
             <div class="why-text">

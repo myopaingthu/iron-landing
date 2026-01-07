@@ -24,10 +24,11 @@
                     <p class="hero-form-subtitle"><?= esc($hero['formSubtitle'] ?? '') ?></p>
                 </div>
                 <form class="hero-form" action="#" method="post">
-                    <input type="email" class="hero-input" placeholder="<?= esc($hero['formPlaceholder'] ?? 'Enter email adress') ?>" aria-label="Email address" required>
+                    <label for="hero-email" class="visually-hidden">Email address</label>
+                    <input type="email" id="hero-email" class="hero-input" placeholder="<?= esc($hero['formPlaceholder'] ?? 'Enter email adress') ?>" aria-label="Email address" required>
                     <button type="submit" class="hero-button">
                         <span><?= esc($hero['formButton'] ?? 'Sign up now') ?></span>
-                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                             <path d="M1.5 1L6.5 6L1.5 11" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </button>

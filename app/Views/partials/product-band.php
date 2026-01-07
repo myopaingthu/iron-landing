@@ -7,10 +7,10 @@
                     <span>
                         <?= esc($productBand['heading'] ?? '') ?>
                     </span>
-                    <div class="product-band-badge">
-                        <img src="<?= base_url('assets/svg/band-badge.svg') ?>" alt="IRONPDF" class="product-band-badge-img">
-                    </div>
                 </h2>
+                <div class="product-band-badge">
+                    <img src="<?= base_url('assets/svg/band-badge.svg') ?>" alt="" class="product-band-badge-img" width="88" height="88" aria-hidden="true">
+                </div>
             </div>
             <ul class="product-band-bullets">
                 <?php if (!empty($productBand['bullets'])): ?>

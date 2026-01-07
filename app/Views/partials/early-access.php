@@ -16,7 +16,7 @@
                                 </div>
                                 <div class="early-access-card-content">
                                     <div class="early-access-logo">
-                                        <img src="<?= base_url('assets/svg/for-' . $card['platform'] . '.svg') ?>" alt="IRONPDF" class="early-access-logo-img">
+                                        <img src="<?= base_url('assets/svg/for-' . $card['platform'] . '.svg') ?>" alt="IronPDF for <?= esc(ucfirst($card['platform'])) ?>" class="early-access-logo-img" width="112" height="40">
                                     </div>
                                 </div>
                             </div>
@@ -33,8 +33,10 @@
                 <h2 class="early-access-cta-heading">Sign up to our <span>Beta Program</span></h2>
                 <form class="early-access-form" action="#" method="post">
                     <div class="early-access-form-group">
+                        <label for="early-access-email" class="visually-hidden">Email address</label>
                         <input 
                             type="email" 
+                            id="early-access-email"
                             class="early-access-email-input" 
                             placeholder="Enter email address" 
                             required

@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container justify-content-iron-start">
             <a class="navbar-brand" href="/">
-                <img src="<?= base_url('assets/svg/logo.svg') ?>" alt="IRONSOFTWARE" class="logo-img">
+                <img src="<?= base_url('assets/svg/logo.svg') ?>" alt="IRONSOFTWARE" class="logo-img" width="120" height="14">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
